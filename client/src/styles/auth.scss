@@ -1,0 +1,25 @@
+.page-header {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: 50%;
+}
+.min-vh-50 {
+  min-height: 50vh !important;
+}
+
+.bg-gradient-dark {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-color: #000000;
+}
+
+.mask {
+  position: absolute;
+  background-position: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+}
